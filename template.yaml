@@ -63,6 +63,9 @@ spec:
         url: ./template
         values:
           name: ${{ parameters.name }}
+          desc: ${{ parameters.desc }}
+          email: ${{ parameters.email }}
+          repoUrl: ${{ parameters.repoUrl }}
 
     # - id: fetch-docs
     #   name: Fetch Docs

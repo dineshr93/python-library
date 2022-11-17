@@ -2,7 +2,7 @@
 name = ${{values.name}}
 version = "0.1.0"
 description = ${{values.desc}}
-authors = [${{ values.email }}]
+authors = ["${{ values.email }}"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
