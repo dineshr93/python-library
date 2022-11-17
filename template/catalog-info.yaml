@@ -1,7 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{ values.name | dump }}
+  name: python-library
+  annotations:
+    github.com/project-slug: dineshr93/python-library
 spec:
   type: service
   owner: user:dineshr93
