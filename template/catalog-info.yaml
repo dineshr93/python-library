@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
-kind: Template
+kind: Component
 metadata:
-  name: python-library
+  name: ${{ values.name | dump }}
   annotations:
     github.com/project-slug: dineshr93/python-library
 spec:
