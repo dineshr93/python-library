@@ -1,8 +1,8 @@
 [tool.poetry]
 name = ${{values.name}}
 version = "0.1.0"
-description = ""
-authors = ["${{values.email}}"]
+description = ${{values.desc}}
+authors = [${{ values.email }}]
 
 [tool.poetry.dependencies]
 python = "^3.6"

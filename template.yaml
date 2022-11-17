@@ -31,7 +31,7 @@ spec:
         desc:
           title: Description
           type: string
-          description: Descriptioin of the component
+          description: Description of the component
           ui:autofocus: true
           ui:options:
             rows: 5
