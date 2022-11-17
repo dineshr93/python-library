@@ -4,7 +4,7 @@ ${{values.name}}
 
 ## Description
 
-${{values.description}}
+${{values.desc}}
 
 ## Getting Started
 
