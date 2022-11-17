@@ -19,6 +19,7 @@ spec:
       required:
         - name
         - email
+        - desc
       properties:
         name:
           title: Name
@@ -27,7 +28,7 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
-        description:
+        desc:
           title: Description
           type: string
           description: Descriptioin of the component
